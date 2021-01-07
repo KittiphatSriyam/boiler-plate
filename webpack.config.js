@@ -2,8 +2,6 @@ const { resolve } = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-process.traceDeprecation = true;
-
 module.exports = {
   entry: "./src/index.js",
   output: {

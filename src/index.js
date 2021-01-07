@@ -6,7 +6,7 @@ const App = () => (
   <div className="text-center">
     Hello
     <div className="mb-3">
-      <label className="form-label">Email address</label>
+      <label className="form-label">Email segse</label>
       <input
         type="email"
         className="form-control"

@@ -5651,11 +5651,6 @@
   dependencies:
     "lodash" "^4.17.15"
 
-"webpack-node-externals@^2.5.2":
-  "integrity" "sha512-aHdl/y2N7PW2Sx7K+r3AxpJO+aDMcYzMQd60Qxefq3+EwhewSbTBqNumOsCE1JsCUNoyfGj5465N0sSf6hc/5w=="
-  "resolved" "https://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-2.5.2.tgz"
-  "version" "2.5.2"
-
 "webpack-sources@^2.1.1":
   "integrity" "sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w=="
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-2.2.0.tgz"
