@@ -1,2 +1,2 @@
 #!/bin/bash
-# start chrome "./dist/index.html"
+start chrome "./dist/index.html"
