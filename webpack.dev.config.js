@@ -47,7 +47,7 @@ module.exports = {
       template: "./public/index.html",
     }),
     new DefinePlugin({
-      "process.env.HOST": JSON.stringify("http://localhost:9200"),
+      "process.env.HOST": JSON.stringify("http://YOUR_HOST_MACHINE:9200"),
     }),
   ],
   devServer: {
