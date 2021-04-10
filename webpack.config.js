@@ -49,7 +49,7 @@ module.exports = {
       template: "./public/index.html",
     }),
     new DefinePlugin({
-      "process.env.HOST": JSON.stringify("http://"),
+      "process.env.HOST": JSON.stringify("http://YOUR_HOST"),
     }),
   ],
 };
