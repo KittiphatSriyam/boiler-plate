@@ -1,4 +1,5 @@
 const { resolve } = require("path");
+const { DefinePlugin } = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -44,6 +45,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+    }),
+    new DefinePlugin({
+      "process.env.HOST": JSON.stringify("http://localhost:9200"),
     }),
   ],
   devServer: {

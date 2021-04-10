@@ -1,6 +1,7 @@
 const { resolve } = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const { DefinePlugin } = require("webpack");
 
 module.exports = {
   entry: ["@babel/polyfill", "./src/index.js"],
@@ -46,6 +47,9 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+    }),
+    new DefinePlugin({
+      "process.env.HOST": JSON.stringify("http://kcetweb:4500"),
     }),
   ],
 };
